@@ -1,9 +1,6 @@
-# Streamlit Community Cloud 会根据本文件自动安装依赖。
-# 【必须修改】scikit-learn 应改成训练 svm_model.pkl 时使用的完全相同版本。
-# 在原训练环境运行：python -c "import sklearn; print(sklearn.__version__)"
-streamlit==1.59.2
-pandas==2.3.3
-numpy==2.2.6
+streamlit>=1.36,<2.0
+pandas>=2.2,<3.0
+numpy>=1.26,<3.0
 scikit-learn==1.7.2
-shap==0.47.0
-matplotlib==3.10.9
+shap>=0.47,<1.0
+matplotlib>=3.8,<4.0
